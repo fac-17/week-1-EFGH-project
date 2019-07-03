@@ -15,6 +15,7 @@ section {
     position: fixed;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    top:0;
 }
 .nav-list {
     list-style: none;
@@ -29,11 +30,34 @@ section {
 .home {
     background-color: aquamarine;
 }
+
+.home header {
+  padding-top:200px;
+  text-align: center;
+
+}
+
+.team-avatars {
+  margin-top:150px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.team-avatars img {
+  max-width: 200px;
+  border-radius: 50%;
+}
 .about {
     background-color:blue;
 }
 .team {
     background-color: green;
+}
+.team article img {
+    max-width: 200px;
+    border-radius: 50%;
+    
 }
 .contact {
     background-color: purple;
