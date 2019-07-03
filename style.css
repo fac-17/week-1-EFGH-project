@@ -1,13 +1,18 @@
+
+body {
+  margin:0;
+  padding:0;
+}
 section {
     height: 100vh;
 }
 body > header {
     height: 100px;
-    position: fixed;    
+    position: fixed;
 }
 .home {
     background-color: aquamarine;
-} 
+}
 .about {
     background-color:blue;
 }
