@@ -54,6 +54,11 @@ section {
 .team {
     background-color: green;
 }
+.team article img {
+    max-width: 200px;
+    border-radius: 50%;
+    
+}
 .contact {
     background-color: purple;
 }
