@@ -1,0 +1,19 @@
+section {
+    height: 100vh;
+}
+body > header {
+    height: 100px;
+    position: fixed;    
+}
+.home {
+    background-color: aquamarine;
+} 
+.about {
+    background-color:blue;
+}
+.team {
+    background-color: green;
+}
+.contact {
+    background-color: purple;
+}
