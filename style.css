@@ -54,11 +54,22 @@ section {
 .team {
     background-color: green;
 }
+
 .team article img {
     max-width: 200px;
     border-radius: 50%;
     
 }
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.team article {
+    width:45%;
+}
+
 .contact {
     background-color: purple;
 }
