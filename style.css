@@ -1,3 +1,4 @@
+
 html {
     scroll-behavior: smooth;
 }
@@ -10,9 +11,15 @@ html {
 body {
   margin:0;
   padding:0;
+  font-family:'Spectral', serif;
+
 }
 section {
     height: 100vh;
+}
+
+.company-name {
+  font-family:'Permanent Marker', cursive;
 }
 .company-name a {
     text-decoration: none;
@@ -68,7 +75,7 @@ section {
 .team article img {
     max-width: 200px;
     border-radius: 50%;
-    
+
 }
 .profiles {
     display: flex;
