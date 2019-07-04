@@ -156,7 +156,7 @@ ul li a {
     grid-column-gap: 5px;
     grid-row-gap: 15px;
     align-items: center;
-    background-color: var(--light-color-one);
+    background-color:#2086b0;
     padding: 15px 15px;
     max-width: 500px;
     margin: auto;
@@ -167,9 +167,9 @@ ul li a {
 }
 .contact label {
     text-align: right;
+    color: white;   
 }
-.contact form input[type=submit]{
-} 
+
 @media screen and (max-width: 900px) { 
     .team-avatars img {
         max-width: 130px;
