@@ -12,10 +12,10 @@ body {
   margin:0;
   padding:0;
   font-family:'Spectral', serif;
-  max-width: 1200px;
 }
-section {
+section, .home, .about, .team, .contact {
     height: 100vh;
+    padding-top: 85px;
 }
 
 .company-name {
@@ -33,10 +33,6 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     top:0;
-}
-
-section {
-    padding-top: 85px;
 }
 .nav-list {
     list-style: none;
@@ -77,14 +73,14 @@ ul li a {
 }
 
 .team-avatars {
-  margin-top:150px;
+  margin-top: 150px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 
 }
 .team-avatars img {
-  max-width: 100px;
+  max-width: 200px;
   border-radius: 50%;
 }
 
@@ -105,6 +101,48 @@ ul li a {
     max-height: 100vh;
 }
 
-@media and screen(max-width: 900px) {
+@media screen and (max-width: 900px) { 
+    .team-avatars img {
+        max-width: 130px;
+      }   
+    .team {
+        display: flex;
+        flex-direction: column;
+    }
+    .team article {
+        width: 100%;
+    }
+    .team article img {
+        max-width: 50px;
+        float: left;
+        padding-right: 5px;
+    }
+    .profiles {
+    flex-direction: row;
+    flex-wrap: none;
+    overflow: hidden;
+    }
+}
 
+@media screen and (max-width: 600px) {
+    .team-avatars img {
+        max-width: 80px;
+      }    
+    .team {
+        display: flex;
+        flex-direction: column;
+    }
+    .team article {
+        width: 100%;
+    }
+    .team article img {
+        max-width: 50px;
+        float: left;
+        padding-right: 5px;
+    }
+    .profiles {
+    flex-direction: row;
+    flex-wrap: none;
+    overflow: hidden;
+    }
 }
