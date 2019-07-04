@@ -61,12 +61,6 @@ section {
   max-width: 200px;
   border-radius: 50%;
 }
-.about {
-    background-color:blue;
-}
-.team {
-    background-color: green;
-}
 
 .team article img {
     max-width: 200px;
@@ -81,8 +75,4 @@ section {
 }
 .team article {
     width:45%;
-}
-
-.contact {
-    background-color: purple;
 }
