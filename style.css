@@ -94,6 +94,12 @@ ul li a {
     text-align: left;
     font-size: 1em;
 }
+.team ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    align-items: flex-start;
+}
 
 .team-avatars {
   margin-top: 150px;
@@ -110,8 +116,19 @@ ul li a {
 .team article img {
     max-width: 150px;
     border-radius: 50%;
+    padding-right: 30px;
 
 }
+.team ul img {
+    height: 50px;
+    padding:5px;
+}
+.profiles div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
 .profiles {
     display: flex;
     flex-wrap: wrap;
@@ -119,6 +136,10 @@ ul li a {
     align-items: center;
     overflow: hidden;
 }
+.team p {
+    max-width: 80%;
+}
+
 .team article {
     width:45%;
     max-height: 100vh;
