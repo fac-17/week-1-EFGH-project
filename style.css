@@ -5,13 +5,13 @@ html {
 :root {
     --dark-colour-one: #373737;
     --dark-color-two: #C0B283;
-    --light-color-one: #DCD0C0;
+    --light-color-one: #F1E5D675;
     --light-colour-two: #F4F4F4;
 }
 body {
   margin:0;
   padding:0;
-  font-family:'Spectral', serif;
+  font-family:'Ubuntu', sans-serif;
   font-size:1.3rem;
 }
 section, .home, .about, .team, .contact {
@@ -20,10 +20,11 @@ section, .home, .about, .team, .contact {
 }
 
 .company-name {
+  font-size:3.5rem;
   padding-left:10px;
   margin:0;
   float:left;
-  font-family:'Permanent Marker', cursive;
+  font-family:'Barriecito', cursive;
 }
 .company-name a {
     text-decoration: none;
@@ -46,6 +47,7 @@ section, .home, .about, .team, .contact {
 }
 
 .nav-list {
+    font-family:'Barriecito', cursive;
     list-style: none;
     display:grid;
     grid-auto-flow:column;
@@ -77,7 +79,7 @@ h2 {
 .home p:first-of-type {
   color:#FE4164;
   font-weight:bold;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px #373737;
   display:inline-block;
   border-width: 1px;
   border-style: dashed;
