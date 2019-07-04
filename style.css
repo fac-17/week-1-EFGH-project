@@ -179,14 +179,12 @@ h2 {
     text-align: right;
     color: white;   
 }
-<<<<<<< HEAD
-.contact form input[type=submit]{
-}
-@media screen and (max-width: 900px) {
-=======
+
 
 @media screen and (max-width: 900px) { 
->>>>>>> master
+    nav li a {
+        padding: 5px;
+    }
     .team-avatars img {
         max-width: 130px;
       }
@@ -210,6 +208,10 @@ h2 {
 }
 
 @media screen and (max-width: 600px) {
+    nav li a {
+        padding: 5px;
+        font-size: 0.9em;
+    }
     .team-avatars img {
         max-width: 80px;
       }
