@@ -171,6 +171,9 @@ ul li a {
 }
 
 @media screen and (max-width: 900px) { 
+    nav li a {
+        padding: 5px;
+    }
     .team-avatars img {
         max-width: 130px;
       }   
@@ -194,6 +197,10 @@ ul li a {
 }
 
 @media screen and (max-width: 600px) {
+    nav li a {
+        padding: 5px;
+        font-size: 0.9em;
+    }
     .team-avatars img {
         max-width: 80px;
       }    
