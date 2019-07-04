@@ -20,6 +20,7 @@ section, .home, .about, .team, .contact {
 }
 
 .company-name {
+  padding-left:10px;
   margin:0;
   float:left;
   font-family:'Permanent Marker', cursive;
@@ -27,6 +28,10 @@ section, .home, .about, .team, .contact {
 .company-name a {
     text-decoration: none;
     color: var(--light-colour-two)
+}
+
+.company-name a:hover {
+  color: #2086b0;
 }
 
 .nav-header {
@@ -53,29 +58,47 @@ section, .home, .about, .team, .contact {
     color: var(--light-colour-two)
 
 }
+
+.nav-list a:hover {
+  color: #2086b0;
+}
 ul li a {
-    text-decoration: none;    
+    text-decoration: none;
     color: var(--dark-colour-one);
 }
 .nav-list li, ul li {
     display: inline;
 }
 
+h2 {
+  text-shadow: 3px 3px #A9A9A9;
+}
+
 .home p:first-of-type {
-  color:#F87984;
+  color:#FE4164;
   font-weight:bold;
   text-shadow: 2px 2px #ff0000;
   display:inline-block;
   border-width: 1px;
   border-style: dashed;
   font-size:2rem;
+}
 
+.sub-intro {
+  font-weight:bold;
+  text-shadow: 2px 2px #A9A9A9;
 }
 .home, .team {
     background-color: var(--light-color-one);
 }
 .about, .contact {
     background-color: var(--lght-color-two);
+}
+
+.about p {
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align:center;
 }
 
 .home header {
@@ -95,7 +118,7 @@ ul li a {
     font-size: 1em;
 }
 .team ul {
-    display: flex;
+    display:flex;
     justify-content: center;
     padding: 0;
     align-items: flex-start;
@@ -111,6 +134,17 @@ ul li a {
 .team-avatars img {
   max-width: 200px;
   border-radius: 50%;
+}
+
+.team-avatars img:hover {
+  animation-name:resize;
+  animation-duration:0.8s;
+}
+
+@keyframes resize {
+  from {box-shadow:none;}
+  to {box-shadow: 5px 5px #FE4164;}
+
 }
 
 .team article img {
@@ -145,6 +179,10 @@ ul li a {
     max-height: 100vh;
 }
 
+.name-text{
+  color:#FE4164;
+}
+
 .contact p {
     text-align: center;
 }
@@ -160,20 +198,20 @@ ul li a {
     padding: 15px 15px;
     max-width: 500px;
     margin: auto;
-}  
+}
 .contact input, .contact textarea{
     align-self: stretch;
     border: 1px solid black;
 }
 .contact label {
     text-align: right;
-    color: white;   
+    color: white;
 }
 
-@media screen and (max-width: 900px) { 
+@media screen and (max-width: 900px) {
     .team-avatars img {
         max-width: 130px;
-      }   
+      }
     .team {
         display: flex;
         flex-direction: column;
@@ -196,7 +234,7 @@ ul li a {
 @media screen and (max-width: 600px) {
     .team-avatars img {
         max-width: 80px;
-      }    
+      }
     .team {
         display: flex;
         flex-direction: column;
