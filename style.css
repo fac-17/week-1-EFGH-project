@@ -283,6 +283,9 @@ nav li a {
         float: left;
         padding-right: 5px;
     }
+    .about {
+        font-size: 0.8em;
+    }
     .profiles {
     flex-direction: row;
     flex-wrap: none;
