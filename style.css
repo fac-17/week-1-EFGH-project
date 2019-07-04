@@ -36,16 +36,16 @@ section {
 }
 .nav-list a {
     text-decoration: none;    
-    color: var(--dark-color-two);
+    color: #F87984;
 }
 .nav-list li {
     display: inline;
 }
-.home .team {
+.home, .team {
     background-color: var(--light-color-one);
 }
-.about .contact{
-    background-color: var(--light-color-two);
+.about, .contact {
+    background-color: var(--lght-color-two);
 }
 
 .home header {
