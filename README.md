@@ -1,8 +1,11 @@
 # week-1-EFGH-project - Landing page for web development agency
-Jan
-Martha
-Gig
-Jack
+
+### Team
+
+* Jan
+* Martha
+* Gig
+* Jack
 
 
 ## WHY (describing the purpose)
@@ -26,8 +29,6 @@ Our site should satisfies the following user stories:
 7. As a blind client... I would like to easily understand how to navigate the site after my screen reader reads me the content of the site so I can understand the information available.
 
 8. As a client with JavaScript disabled in their browser for security reasons I would like to visit your site and get a similar experience to viewing your site on a modern browser with JavaScript enabled so that I don't feel like I'm completely in the stone age.
-
-
 
 
 ## HOW (describing the journey to completion)
