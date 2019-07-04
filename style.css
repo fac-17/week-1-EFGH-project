@@ -77,7 +77,7 @@ h2 {
 }
 
 .home p:first-of-type {
-  color:var(--dark-colour-one);
+  color: #FE4164;
   font-weight:bold;
   text-shadow: 2px 2px #373737;
   display:inline-block;
