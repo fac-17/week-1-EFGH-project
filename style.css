@@ -12,7 +12,7 @@ body {
   margin:0;
   padding:0;
   font-family:'Spectral', serif;
-
+  max-width: 1200px;
 }
 section {
     height: 100vh;
@@ -36,7 +36,7 @@ section {
 }
 
 section {
-    padding-top: 110px;
+    padding-top: 85px;
 }
 .nav-list {
     list-style: none;
@@ -45,7 +45,11 @@ section {
     text-decoration: none;    
     color: #F87984;
 }
-.nav-list li {
+ul li a {
+    text-decoration: none;    
+    color: var(--dark-colour-one);
+}
+.nav-list li, ul li {
     display: inline;
 }
 .home, .team {
@@ -62,10 +66,9 @@ section {
 
 .about header, .team header, .contact header {
     text-transform: uppercase;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: bold;
     text-align: center;
-    padding-bottom: 5px;
 }
 
 .team article header {
@@ -85,12 +88,8 @@ section {
   border-radius: 50%;
 }
 
-.team article {
-
-}
-
 .team article img {
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 50%;
 
 }
@@ -99,7 +98,9 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 .team article {
     width:45%;
+    max-height: 100vh;
 }
