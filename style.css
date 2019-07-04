@@ -71,6 +71,19 @@ section {
 
 }
 
+.about header, .team header, .contact header {
+    text-transform: uppercase;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.team article header {
+    text-align: left;
+    font-size: 1em;
+}
+
 .team-avatars {
   margin-top:150px;
   display: flex;
@@ -79,8 +92,12 @@ section {
 
 }
 .team-avatars img {
-  max-width: 200px;
+  max-width: 100px;
   border-radius: 50%;
+}
+
+.team article {
+
 }
 
 .team article img {
