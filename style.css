@@ -41,8 +41,11 @@ section {
 .nav-list li {
     display: inline;
 }
-.home {
-    background-color: aquamarine;
+.home .team {
+    background-color: var(--light-color-one);
+}
+.about .contact{
+    background-color: var(--light-color-two);
 }
 
 .home header {
