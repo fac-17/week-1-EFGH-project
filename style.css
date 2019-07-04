@@ -116,6 +116,12 @@ h2 {
     text-align: center;
 }
 
+.about article {
+    max-width: 600px;
+    margin:auto;
+    margin-top:100px;
+}
+
 .team article header {
     text-align: left;
     font-size: 1em;
