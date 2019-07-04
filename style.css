@@ -19,6 +19,7 @@ section {
 }
 
 .company-name {
+  margin:0;
   float:left;
   font-family:'Permanent Marker', cursive;
 }
@@ -47,6 +48,7 @@ section {
     display:grid;
     grid-auto-flow:column;
     text-transform: uppercase;
+    margin-left:20vw;
 
 }
 .nav-list a {
