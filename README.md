@@ -35,7 +35,7 @@ Our site should satisfies the following user stories:
 
 ## HOW (describing the journey to completion)
 
-We used pair programming!!!
+### We used pair programming!!!
 
 ![pair programming](https://media.giphy.com/media/3o6Mbb5RB1dpkNIZFK/giphy.gif)
 
@@ -43,8 +43,24 @@ We switched pairs three times and used mostly backseat driver approach.
 
 We ensured each pull request was reviewed by the oppsite pair. 
 
-### Key design decions: 
+### We used whiteboarding and paper wireframes
+![](https://i.imgur.com/RhtK9LM.jpg =100x)
+
+![Imgur](https://i.imgur.com/5D9I9ps.jpg)
+
+![Imgur](https://i.imgur.com/qDUH3NL.jpg)
+
+![Imgur](https://i.imgur.com/By2lU4D.jpg)
+
+![Imgur](https://i.imgur.com/yNI6puW.jpg)
+
+### Key design decisions: 
 1. We built our site without JavaScript
 2. We followed a classic site layout with simple navbar that is always visible. 
 3. We used semantic HTML
 4. We regularly used Accessibility audits to ensure we were following best practices
+
+
+
+# Bonus - Jan Selfie
+![Jan with glasses](https://i.imgur.com/mSzdXbw.jpg)
