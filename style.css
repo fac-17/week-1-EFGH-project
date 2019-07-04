@@ -178,9 +178,7 @@ h2 {
 .team article {
     width:45%;
     max-height: 100vh;
-    margin-top:-100px;
-    padding-top: 100px;
-}
+   }
 
 .name-text{
   color:#FE4164;
