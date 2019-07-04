@@ -166,7 +166,7 @@ h2 {
     grid-column-gap: 5px;
     grid-row-gap: 15px;
     align-items: center;
-    background-color: var(--light-color-one);
+    background-color:#2086b0;
     padding: 15px 15px;
     max-width: 500px;
     margin: auto;
@@ -177,10 +177,16 @@ h2 {
 }
 .contact label {
     text-align: right;
+    color: white;   
 }
+<<<<<<< HEAD
 .contact form input[type=submit]{
 }
 @media screen and (max-width: 900px) {
+=======
+
+@media screen and (max-width: 900px) { 
+>>>>>>> master
     .team-avatars img {
         max-width: 130px;
       }
