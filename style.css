@@ -54,11 +54,15 @@ section, .home, .about, .team, .contact {
 
 }
 ul li a {
-    text-decoration: none;    
+    text-decoration: none;
     color: var(--dark-colour-one);
 }
 .nav-list li, ul li {
     display: inline;
+}
+
+h2 {
+  text-shadow: 3px 3px #A9A9A9;
 }
 
 .home p:first-of-type {
@@ -76,6 +80,12 @@ ul li a {
 }
 .about, .contact {
     background-color: var(--lght-color-two);
+}
+
+.about p {
+  padding-right: 25px;
+  padding-left: 25px;
+  text-align:center;
 }
 
 .home header {
@@ -160,7 +170,7 @@ ul li a {
     padding: 15px 15px;
     max-width: 500px;
     margin: auto;
-}  
+}
 .contact input, .contact textarea{
     align-self: stretch;
     border: 1px solid black;
@@ -171,12 +181,13 @@ ul li a {
 }
 
 @media screen and (max-width: 900px) { 
+
     nav li a {
         padding: 5px;
     }
     .team-avatars img {
         max-width: 130px;
-      }   
+      }
     .team {
         display: flex;
         flex-direction: column;
@@ -203,7 +214,7 @@ ul li a {
     }
     .team-avatars img {
         max-width: 80px;
-      }    
+      }
     .team {
         display: flex;
         flex-direction: column;
