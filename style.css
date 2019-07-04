@@ -184,7 +184,20 @@ nav li a {
 }
 
 @media screen and (max-width: 900px) { 
-    
+    .team article {
+        font-size: 1em;
+        padding-left: 10px;
+    }
+    .about header, .team header, .contact header {
+        font-size: 0.8em;
+    }
+    .profiles article ul li img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .profiles div {
+        align-items: center;
+    }
     .team-avatars img {
         max-width: 130px;
       }
@@ -210,6 +223,20 @@ nav li a {
 @media screen and (max-width: 600px) {
     nav li a {
         font-size: 0.9em;
+    }
+    .team article {
+        font-size: 0.6em;
+        padding-left: 5px;
+    }
+    .about header, .team header, .contact header {
+        font-size: 0.6em;
+    }
+    .profiles article ul li img {
+        max-width: 25px;
+        max-height: 25px;
+    }
+    .profiles div {
+        align-items: center;
     }
     .team-avatars img {
         max-width: 80px;
