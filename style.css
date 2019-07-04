@@ -53,11 +53,22 @@ section {
 }
 .nav-list a {
     text-decoration: none;
-    color: #F87984;
+    color: var(--light-colour-two)
 
 }
 .nav-list li {
     display: inline;
+}
+
+.home p:first-of-type {
+  color:#F87984;
+  font-weight:bold;
+  text-shadow: 2px 2px #ff0000;
+  display:inline-block;
+  border-width: 1px;
+  border-style: dashed;
+  font-size:2rem;
+
 }
 .home, .team {
     background-color: var(--light-color-one);
