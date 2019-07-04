@@ -77,12 +77,13 @@ h2 {
 }
 
 .home p:first-of-type {
-  color:#FE4164;
+  color:var(--dark-colour-one);
   font-weight:bold;
   text-shadow: 2px 2px #373737;
   display:inline-block;
   border-width: 1px;
   border-style: dashed;
+  border-color: #ff0000;
   font-size:2rem;
 }
 
@@ -284,6 +285,9 @@ nav li a {
         max-width: 50px;
         float: left;
         padding-right: 5px;
+    }
+    .about {
+        font-size: 0.8em;
     }
     .profiles {
     flex-direction: row;
