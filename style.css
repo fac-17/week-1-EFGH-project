@@ -32,7 +32,7 @@ section, .home, .about, .team, .contact {
 }
 
 .company-name a:hover {
-  color: #2086b0;
+  color: #207aa0;
 }
 
 .nav-header {
@@ -62,7 +62,7 @@ section, .home, .about, .team, .contact {
 }
 
 .nav-list a:hover {
-  color: #2086b0;
+  color: #207aa0;
 }
 ul li a {
     text-decoration: none;
@@ -189,7 +189,7 @@ h2 {
    }
 
 .name-text{
-  color:#FE4164;
+  color:#ce1c3dfa;
 }
 
 .contact p {
@@ -203,7 +203,7 @@ h2 {
     grid-column-gap: 5px;
     grid-row-gap: 15px;
     align-items: center;
-    background-color:#2086b0;
+    background-color:#207aa0;
     padding: 15px 15px;
     max-width: 500px;
     margin: auto;
