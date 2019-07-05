@@ -198,7 +198,7 @@ h2 {
 
 .contact form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30% 70%;
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 15px;
@@ -211,10 +211,26 @@ h2 {
 .contact input, .contact textarea{
     align-self: stretch;
     border: 1px solid black;
+    font-size: 1em
+}
+input {
+    font-size: 1em;
+    overflow: hidden
 }
 .contact label {
     text-align: right;
     color: white;
+}
+
+form {
+    max-height: 400px;
+}
+
+
+#form-submit {
+    font-size: 2rem;
+    height: 50px;
+    align-self: center;
 }
 
 nav li a {
@@ -256,6 +272,10 @@ nav li a {
     flex-direction: row;
     flex-wrap: none;
     overflow: hidden;
+    }
+
+    #form-submit {
+        font-size: 1.4rem;
     }
 }
 
@@ -306,3 +326,4 @@ nav li a {
         font-size: 0.7em;
     }
 }
+
