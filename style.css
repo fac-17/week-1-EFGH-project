@@ -14,7 +14,7 @@ body {
   font-family:'Ubuntu', sans-serif;
   font-size:1.3rem;
 }
-section, .home, .about, .team, .contact {
+section, .home, .team, .contact {
     height: 100vh;
     padding-top: 85px;
 }
@@ -96,12 +96,13 @@ h2 {
 }
 .about, .contact {
     background-color: var(--lght-color-two);
+    height: 100%;
 }
 
 .about p {
-  padding-right: 25px;
-  padding-left: 25px;
-  text-align:center;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align:justify;
 }
 
 .home header {
