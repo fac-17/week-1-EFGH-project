@@ -1,4 +1,4 @@
-# week-1-EFGH-project - Landing page for web development agency
+# Landing page for web development agency
 
 https://fac-17.github.io/week-1-EFGH-project/
 
