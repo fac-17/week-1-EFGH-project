@@ -60,7 +60,3 @@ We ensured each pull request was reviewed by the oppsite pair.
 2. We followed a classic site layout with simple navbar that is always visible. 
 3. We used semantic HTML
 4. We regularly used Accessibility audits to ensure we were following best practices
-
-# Bonus - Jan Selfie
-
-<img src="https://i.imgur.com/mSzdXbw.jpg" width=400px>

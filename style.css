@@ -318,3 +318,16 @@ nav li a {
         font-size: 0.7em;
     }
 }
+footer {
+    text-align: center;
+    padding-bottom: 10px;
+    display: flex;
+    font-size: 1.5em;
+    align-items: center;
+    justify-content: center;
+}
+footer img {
+    height:1em;
+    align-self: center;
+    margin-right: 5px;
+}
