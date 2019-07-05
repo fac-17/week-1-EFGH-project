@@ -44,15 +44,17 @@ We switched pairs three times and used mostly backseat driver approach.
 We ensured each pull request was reviewed by the oppsite pair. 
 
 ### We used whiteboarding and paper wireframes
-![Brainstorm](https://i.imgur.com/RhtK9LM.jpg)
 
-![Imgur](https://i.imgur.com/5D9I9ps.jpg)
+<img src="https://i.imgur.com/RhtK9LM.jpg" width=400px>
 
-![Imgur](https://i.imgur.com/qDUH3NL.jpg)
+<img src="https://i.imgur.com/5D9I9ps.jpg" width=400px>
 
-![Imgur](https://i.imgur.com/By2lU4D.jpg)
+<img src="https://i.imgur.com/qDUH3NL.jpg" width=400px>
 
-![Imgur](https://i.imgur.com/yNI6puW.jpg)
+<img src="https://i.imgur.com/By2lU4D.jpg" width=400px>
+
+<img src="https://i.imgur.com/yNI6puW.jpg" width=400px>
+
 
 ### Key design decisions: 
 1. We built our site without JavaScript
