@@ -220,6 +220,8 @@ h2 {
     padding: 15px 15px;
     max-width: 500px;
     margin: auto;
+    max-height: 400px;
+
 }
 .contact input, .contact textarea{
     align-self: stretch;
@@ -228,16 +230,14 @@ h2 {
 }
 input {
     font-size: 1em;
-    overflow: hidden
+    overflow: hidden;
+    outline-width: 0;
 }
 .contact label {
     text-align: right;
     color: white;
 }
 
-form {
-    max-height: 400px;
-}
 
 
 #form-submit {
@@ -344,9 +344,10 @@ footer {
     text-align: center;
     padding-bottom: 10px;
     display: flex;
-    font-size: 1.5em;
+    font-size: 1em;
     align-items: center;
     justify-content: center;
+    padding-top: 30px;
 }
 footer img {
     height:1em;
