@@ -55,14 +55,12 @@ We ensured each pull request was reviewed by the oppsite pair.
 
 <img src="https://i.imgur.com/yNI6puW.jpg" width=400px>
 
-
 ### Key design decisions: 
 1. We built our site without JavaScript
 2. We followed a classic site layout with simple navbar that is always visible. 
 3. We used semantic HTML
 4. We regularly used Accessibility audits to ensure we were following best practices
 
-
-
 # Bonus - Jan Selfie
-![Jan with glasses](https://i.imgur.com/mSzdXbw.jpg)
+
+<img src="https://i.imgur.com/mSzdXbw.jpg" width=400px>
