@@ -44,7 +44,7 @@ We switched pairs three times and used mostly backseat driver approach.
 We ensured each pull request was reviewed by the oppsite pair. 
 
 ### We used whiteboarding and paper wireframes
-![](https://i.imgur.com/RhtK9LM.jpg =100x)
+![Brainstorm](https://i.imgur.com/RhtK9LM.jpg)
 
 ![Imgur](https://i.imgur.com/5D9I9ps.jpg)
 
