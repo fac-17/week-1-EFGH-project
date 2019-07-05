@@ -166,6 +166,12 @@ h2 {
     height: 50px;
     padding:5px;
 }
+
+.team ul img:hover {
+  border-style: solid;
+  border-color: #207aa0;
+  border-width: 0.5px;
+}
 .profiles div {
     display: flex;
     justify-content: flex-start;
