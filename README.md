@@ -66,7 +66,7 @@ We ensured each pull request was reviewed by the oppsite pair.
 
 ![Chrome-testing](https://i.imgur.com/VmusqLd.jpg)
 
-### Stretch-goals
+### Stretch-goals (achieved)
 1. Improved general design and layout
 
 2. Favicon
@@ -75,3 +75,9 @@ We ensured each pull request was reviewed by the oppsite pair.
 
 4. Improved contact form
 
+### Future stretch goals
+1. Randomising the team picture orders
+
+2. Saving form content (possibly using Google Sheets as suggested by Sam Harris on WhatsApp group)
+
+3. Using regex to check form content
