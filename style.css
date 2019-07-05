@@ -221,7 +221,8 @@ h2 {
 }
 input {
     font-size: 1em;
-    overflow: hidden
+    overflow: hidden;
+    outline-width: 0;
 }
 .contact label {
     text-align: right;
