@@ -14,7 +14,7 @@ body {
   font-family:'Ubuntu', sans-serif;
   font-size:1.3rem;
 }
-section, .home, .about, .team, .contact {
+section, .home, .team, .contact {
     height: 100vh;
     padding-top: 85px;
 }
@@ -97,12 +97,13 @@ h2 {
 }
 .about, .contact {
     background-color: var(--lght-color-two);
+    height: 100%;
 }
 
 .about p {
-  padding-right: 25px;
-  padding-left: 25px;
-  text-align:center;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align:justify;
 }
 
 .home header {
@@ -210,7 +211,7 @@ h2 {
 
 .contact form {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 30% 70%;
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 5px;
     grid-row-gap: 15px;
@@ -223,10 +224,26 @@ h2 {
 .contact input, .contact textarea{
     align-self: stretch;
     border: 1px solid black;
+    font-size: 1em
+}
+input {
+    font-size: 1em;
+    overflow: hidden
 }
 .contact label {
     text-align: right;
     color: white;
+}
+
+form {
+    max-height: 400px;
+}
+
+
+#form-submit {
+    font-size: 2rem;
+    height: 50px;
+    align-self: center;
 }
 
 nav li a {
@@ -268,6 +285,10 @@ nav li a {
     flex-direction: row;
     flex-wrap: none;
     overflow: hidden;
+    }
+
+    #form-submit {
+        font-size: 1.4rem;
     }
 }
 
@@ -318,6 +339,7 @@ nav li a {
         font-size: 0.7em;
     }
 }
+
 footer {
     text-align: center;
     padding-bottom: 10px;
