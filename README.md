@@ -4,10 +4,10 @@ https://fac-17.github.io/week-1-EFGH-project/
 
 ### Team
 
-* Jan
-* Martha
-* Gigi
-* Jack
+1. [Jack](https://github.com/jackbridger)
+2. [Gigi](https://github.com/gminova)
+3. [Martha](https://github.com/mkatenolan)
+4. [Jan](https://github.com/crianonim)
 
 
 ## WHY (describing the purpose)
