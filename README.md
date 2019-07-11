@@ -2,7 +2,7 @@
 
 https://fac-17.github.io/week-1-EFGH-project/
 
-### Team
+## Team
 
 1. [Jack](https://github.com/jackbridger)
 2. [Gigi](https://github.com/gminova)
